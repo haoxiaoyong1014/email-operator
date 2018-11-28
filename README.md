@@ -20,9 +20,9 @@
 
 ```
         <dependency>
-           <groupId>cn.haoxiaoyong.email</groupId>
+           <groupId>cn.haoxiaoyong.ocr.email</groupId>
            <artifactId>email-msg</artifactId>
-           <version>v2.0.0</version>
+           <version>v1.0</version>
         </dependency> 
 ```
  
