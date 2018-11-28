@@ -15,7 +15,7 @@ import org.springframework.context.annotation.*;
 @Configuration
 @Import({EmailOperatorConfig.class})
 @ComponentScan(value = "cn.haoxiaoyong.email")
-@PropertySources(@PropertySource("classpath:/application.properties"))
+@PropertySources(@PropertySource("classpath:/application-email.properties"))
 public class EmailOperatorMain {
 
     @Bean

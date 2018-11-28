@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>email-operator</artifactId>
-        <groupId>cn.haoxiaoyong.ocr.email</groupId>
-        <version>v1.0</version>
+        <groupId>cn.haoxiaoyong.email</groupId>
+        <version>v1.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
