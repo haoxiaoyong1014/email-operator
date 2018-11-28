@@ -22,7 +22,7 @@
         <dependency>
            <groupId>cn.haoxiaoyong.ocr.email</groupId>
            <artifactId>email-msg</artifactId>
-           <version>v1.0</version>
+           <version>v1.1</version>
         </dependency> 
 ```
  
