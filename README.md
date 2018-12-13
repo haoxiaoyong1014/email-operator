@@ -22,15 +22,19 @@
         <dependency>
            <groupId>cn.haoxiaoyong.email</groupId>
            <artifactId>email-msg</artifactId>
-           <version>v1.1</version>
+           <version>v1.2</version>
         </dependency> 
 ```
  
-* 在SpringBoot启动类上通过注解引入Main Class
+* 在SpringBoot启动类上加上@MyEmailOperatorMain注解,例如:
   
-          @Import({
-                  EmailOperatorMain.class
-          })  
+  
+       @SpringBootApplication
+       @MyEmailOperatorMain
+       public class MyEmailApp {
+           public static void main(String[] args) {
+               SpringApplication.run(MyEmailApp.class, args);
+           }   
  
 * 配置app key
 
